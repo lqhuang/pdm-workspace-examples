@@ -1,3 +1,6 @@
+[tool.pdm.workspace]
+packages = ["./*"]
+
 [tool.pdm.dev-dependencies]
 workspace = [
     "-e file:///${PROJECT_ROOT}/packages-01#egg=packages-01",
